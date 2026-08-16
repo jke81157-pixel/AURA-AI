@@ -37,7 +37,8 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "achr-af",
+    "owner": "achr-afs-team"
+    
     "platforms": [
       "ios",
       "android",
