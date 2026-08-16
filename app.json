@@ -15,28 +15,13 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#000F19",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "package": "com.auraai.studio",
-      "permissions": [
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "READ_MEDIA_IMAGES",
-        "READ_MEDIA_VIDEO"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.auraai.studio"
     },
     "owner": "achr-afs-team",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "10000000-0000-0000-0000-000000000000"
+      }
+    }
   }
 }
