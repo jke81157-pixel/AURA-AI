@@ -21,5 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Initialize EAS Project
+        run: npx eas-cli init --account achr-afs-team --non-interactive
+
       - name: Build APK on Expo Cloud
-        run: npx eas-cli build --platform android --profile preview --non-interactive --auto-submit-with-input || npx eas-cli build --platform android --profile preview --non-interactive
+        run: npx eas-cli build --platform android --profile preview --non-interactive
