@@ -23,5 +23,5 @@ jobs:
 
       - name: Build APK on Expo Cloud
         run: |
-          npx eas-cli project:init --non-interactive || true
+          npx eas-cli project:init --owner achr-afs-team --non-interactive || true
           eas build --platform android --profile preview --non-interactive
