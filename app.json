@@ -12,11 +12,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "NSPhotoLibraryUsageDescription": "Allows you to select reference images for AI image-to-image and video generation.",
-        "NSPhotoLibraryAddUsageDescription": "Allows you to save generated AI artwork and videos to your device."
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -31,8 +27,7 @@
         "WRITE_EXTERNAL_STORAGE",
         "READ_MEDIA_IMAGES",
         "READ_MEDIA_VIDEO"
-      ],
-      "predictiveBackGestureEnabled": false
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
